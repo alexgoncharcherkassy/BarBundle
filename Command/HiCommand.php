@@ -17,5 +17,6 @@ class HiCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln('Hi from Bar!');
+        return 0;
     }
 }
