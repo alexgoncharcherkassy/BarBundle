@@ -1,0 +1,6 @@
+services:
+
+  barbundle.command.hi:
+    class: BarBundle\Command\HiCommand
+    tags:
+      - {name: 'chain_command', parent: 'foo:hello'}
